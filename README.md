@@ -12,7 +12,7 @@ Important note: this repo ONLY supports components that are natively available i
 * Update readme for how to import into your HTML - using cdn.jsdelivr instead of deployed Netlify project (which allows specifying a version too)
 
 # How to use?
-1. Load `https://cdn.jsdelivr.net/gh/CallumBoase/render-plasmic-into-html@1.0.0/public/customComponents.js` into your html (eg via a script tag in `<head>`)
+1. Load `https://cdn.jsdelivr.net/gh/thegifttrust/render-plasmic-into-html@1.0.0/public/customComponents.js` into your html (eg via a script tag in `<head>`)
     * Note the version after @ in the URL. You can load any published version (see Tags in the github of this project)
 2. In your html add a div with an id eg `<div id="exampleTarget"></div>`
 3. Render the component into your HTML using javascript somewhere on the page. 
